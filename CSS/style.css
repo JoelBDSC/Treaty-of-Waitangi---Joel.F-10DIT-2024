@@ -1,0 +1,58 @@
+#wrapper{
+display:grid;
+grid-template-areas:"header header header"
+                    "nav nav nav"
+                    "sidebar main main" 
+                    "footer footer footer"
+
+}
+
+div{
+border: 2px solid grey;
+background-color: blanchedalmond;
+}
+
+#sidebar{
+ grid-area: sidebar;
+}
+
+#header{
+grid-area: header;
+    text-align: center;
+}
+    
+#nav{
+    grid-area: nav;
+}
+
+#main {
+    grid-area: main;
+}
+    
+#sidebar{
+    grid-area: sidebar;
+  
+}
+#footer{
+    grid-area: footer;
+    text-align: center;
+    color: red;
+}
+
+h1{text-align:center;
+    color: chocolate;
+    background-color:antiquewhite;
+    font-size: 75px;
+}
+
+h3{ text-align: center;
+    font-size: 45px;
+}
+
+p{font-size: 31px;
+  background-color: bisque;
+  text-align: left;
+}
+
+
+
